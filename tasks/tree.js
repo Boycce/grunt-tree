@@ -50,9 +50,9 @@ module.exports = function(grunt) {
                 } else if (grunt.file.isDir(path)) {
                     return false;
                 // Ignore hidden file
-                } else if (path.indexOf('.') === 0) {
-                    grunt.log.writeln('Ignore file: ' + path);
-                    return false;
+                //} else if (path.indexOf('.') === 0) {
+                    //grunt.log.writeln('Ignore file: ' + path);
+                    //return false;
                 } 
 
                 filename = path.split('/').pop();
